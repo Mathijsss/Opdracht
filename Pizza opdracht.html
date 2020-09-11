@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang-"en">
+<head>
+<head>
+	
+		<title>Pizza opdracht</title> 								Mathijs de Jong klas: A2
+</head>
+	<body> 
+  		<script>  
+  			alert("Hoeveel pizza's wil je van welke soort?");		//de eerste pop-up met hoeveel pizza's je wilt per soort.									
+  				
+  			var		small = prompt("Hoeveel small pizza's wil je?");			//de 2de pup-up hoeveel small pizza's je wilt.						
+  			var		medium = prompt("Hoeveel medium pizza's wil je?");				//de 3de pop-up hoeveel medium pizza's je wilt.								
+  			var		large = prompt("Hoeveel large pizza's wil je?")					//de 4de pop-up met hoeveel large pizza's je wilt										
+  		
+  			const smallprice = 5								//de small pizza kost 5euro
+  			const mediumprice = 8								//de medium pizza kost 8euro
+			const largeprice = 12								//de large pizza kost 12euro
+  			
+  			totalprice = Number(small)	+ Number(smallprice) + Number(medium) + Number(mediumprice)	+ Number(large) + Number(largeprice);  //Hier word het allemaal bij elkaar opgetelt (hier rekent die het uit)
+  			document.write("<h1>" + "U heeft:" + small + "Small pizza" + "<br>" + "</h1>");		//hier schrijft die op hoeveel small pizza's jij wilt.
+  			document.write("<h1>" + "U heeft:" + medium + "Medium pizza" + "<br>" + "</h1>");	//hier schrijft die op hoeveel medium pizza's jij wilt.
+  			document.write("<h1>" + "U heeft:" + large + "Large pizza" + "<br>" + "</h1>");		//hier schrijft die op hoeveel large pizza's jij wilt.
+  			document.write("<h1>" + "Totaal:" + " " + totalprice + ",-" + "</h1>");				//hier staat dan de totaal prijs.
+  			
+  			var		totaalprice = prompt("Hoe duur word het denk je?")
+  			
+  		</script>
+ </body>
+</html>
