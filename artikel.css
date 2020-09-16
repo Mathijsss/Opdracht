@@ -1,0 +1,22 @@
+body { 
+  background-color:lightgrey; 
+} 
+p{ color:green; 
+     } 
+ 
+ p2{ color:yellow;
+     }
+
+ p3{ color:purple;
+    }
+
+img {
+    float: right;
+    border-style: solid;
+    border-style: 2px;
+}
+img:nth-of-type(2){ 
+       float:left;
+       border-style: solid;
+       border-style: 2px;
+        } 
